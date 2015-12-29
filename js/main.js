@@ -23,7 +23,9 @@ jQuery(function ($) {
 
     //goto top
     $('.gototop').click(function (event) {
-        event.preventDefault();
+
+        //TweenMax.To('body',5,{'scrollTo':'(y=0)',ease:Power4,easeOut});
+       event.preventDefault();
         $('html, body').animate({
             scrollTop: $("body").offset().top
         }, 500);
