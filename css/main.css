@@ -33,7 +33,7 @@ h6 {
 }
 a {
     text-decoration: none;
-  color: #34495e;
+  color: inherit;/*#34495e;*/
   -webkit-transition: 300ms;
   -moz-transition: 300ms;
   -o-transition: 300ms;
@@ -114,3 +114,23 @@ footer a{
     padding: 150px 90px ;
 }
 
+/**banner***/
+.banner{
+    background:#04b45f;
+    color: #fff;
+    margin-top: -16px;
+    padding: 50px 0;
+}
+.list-banner{
+    list-style: none;
+    padding: 31px 0;
+}
+.list-banner li{
+    display: inline-block;
+}
+.list-banner li+li:before{padding:0 5px;content:"/\00a0"}
+
+/**team***/
+.team-image img{
+    border-radius: 100%;
+}
