@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-$color: #34495e;
-
-h6 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-    color:$color;
-=======
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 /*div{outline: 1px solid red}
 .clearfix {
@@ -94,59 +86,9 @@ ul.arrow li::before {
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
 	background: #2c3e50;
 }
-.no-margin{
-	background: url("../images/slider/bg1.jpg") no-repeat ;
-	background-size: cover;
-	background-position: bottom center;
-    height: 667px;
-	top: auto;
-    position: relative;
-    margin-top: -15px;
-    margin: #34495e;
-    padding-top: 0;
-    color:white;
-}
 
-.imagen{
-    padding: 250px 90px ;
-}
-/*SERVICES*/
-.service{
-    padding: 50px 0px;
-    background-color: #04B45F;
-}
-.icon-md {
-  font-size: 36px;
-  height: 68px;
-  width: 68px;
-  line-height: 68px;
-  color: #fff;
-  margin-right: 10px;
-  background-color: rgba(0, 0, 0, 0.4);
-  text-align: center;
-  display: block;
-  border-radius: 50%;
-  -webkit-transition: 500ms;
-  -moz-transition: 500ms;
-  -o-transition: 500ms;
-  transition: 500ms;
-}
-.media-body{
-    color:white;
-}
-/*WORKS*/
-#recent-works{
-    padding: 60px 0px;
-}
-/*TESTIMONIAL*/
-.testimonial{
-    background: #E74C3C;
-    color:white;
-    padding: 50px 0px;
-}
-h6{
-    color:#DCDCDC;
-}
+@import 'home';
+@import 'services';
 
 /***CONTENT***/
 .content
@@ -234,5 +176,4 @@ h6{
 footer .col-md-6:first-child{
     color: #9d9d9d;
     padding: 15px 0;
->>>>>>> 8d0a63736ae5b550e0ccfaab96d48c099ec11164
 }
