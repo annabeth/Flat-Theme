@@ -4,4 +4,6 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /bower_components/
 /node_modules/
-
+css/main.css
+css/main.css.map
+.sass-cache
