@@ -163,7 +163,12 @@ h6{
 
 .progress{
     background-color: #fff;
+    height: 30px;
 }
+.progress-bar{
+    line-height: 30px;
+}
+
 /***TEAM***/
 
 .team-image img{
@@ -202,7 +207,23 @@ h6{
     background:#21a6d8;
 }
 
-/**team***/
-.team-image img{
-    border-radius: 100%;
+/**PORTFOLIO***/
+.thumbnail{
+    border-radius: 0px;
+    padding: 10px 10px 0;
+}
+.port-image{
+    overflow: hidden;
+    height: 230px;
+}
+.caption p{
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0;
+}
+
+/***FOOTER***/
+footer .col-md-6:first-child{
+    color: #9d9d9d;
+    padding: 15px 0;
 }
