@@ -64,7 +64,7 @@ ul.arrow li::before {
   font-size: 11px;
   content: "\f105"; }
 
-/*HEADER*/
+/*=====HEADER======*/
 .navbar {
   background-color: #34495e;
   border-color: #34495e;
@@ -124,11 +124,11 @@ ul.arrow li::before {
 .media-body {
   color: white; }
 
-/*WORKS*/
+/*====WORKS====*/
 #recent-works {
   padding: 60px 0px; }
 
-/*TESTIMONIAL*/
+/*====TESTIMONIAL====*/
 .testimonial {
   background: #E74C3C;
   color: white;
@@ -137,11 +137,11 @@ ul.arrow li::before {
 h6 {
   color: #DCDCDC; }
 
-/***CONTENT***/
+/***====CONTENT=====***/
 .content {
   padding: 50px 0; }
 
-/**BANNER***/
+/**=====BANNER====***/
 .banner {
   background: #04b45f;
   color: #fff;
@@ -166,6 +166,7 @@ h6 {
 .progress-bar {
   line-height: 30px; }
 
+/*============ABOUT US================*/
 /***TEAM***/
 .team-image img {
   border-radius: 100%; }
@@ -202,7 +203,7 @@ h6 {
 .social.linkedin {
   background: #21a6d8; }
 
-/**PORTFOLIO***/
+/**======PORTFOLIO=====***/
 .thumbnail {
   border-radius: 0px;
   padding: 10px 10px 0; }

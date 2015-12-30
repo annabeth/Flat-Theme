@@ -1,0 +1,38 @@
+/*============ABOUT US================*/
+/***TEAM***/
+
+.team-image img{
+    border-radius: 100%;
+}
+.team .cargo{
+    color:rgba(140,140,133,0.82);
+    font-size: 13px;
+    margin-top: 5px;
+    display: block;
+}
+.team p{
+    font-weight: normal;
+}
+/***SOCIAL****/
+.social{
+    color: #fff;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    padding: 0;
+}
+.social.facebook{
+    background:#4f7dd4;
+}
+.social.google-plus{
+    background:#dc422b;
+}
+.social.twitter{
+    background:#5bceff;
+}
+.social.linkedin{
+    background:#21a6d8;
+}
