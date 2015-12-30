@@ -201,3 +201,8 @@ h6{
 .social.linkedin{
     background:#21a6d8;
 }
+
+/**team***/
+.team-image img{
+    border-radius: 100%;
+}
