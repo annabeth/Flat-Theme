@@ -89,6 +89,12 @@ ul.arrow li::before {
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
 	background: #2c3e50;
+
+}
+.nav>li>a:hover{
+    background: #2c3e50;
+    padding: 10px 15px;
+    transition: scale(1.2) !important;
 }
 
 @import 'home';
@@ -125,8 +131,7 @@ ul.arrow li::before {
     color: #9d9d9d;
 
 }
-#footer .col-md-6:first-child{
-    color: #9d9d9d;
+#footer .col-md-6{
     padding: 15px 10px;
 }
 

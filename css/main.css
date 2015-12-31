@@ -38,6 +38,9 @@ a {
   -o-transition: 300ms;
   transition: 300ms; }
 
+a:hover {
+  text-decoration: none; }
+
 /*GENERAL*/
 /****====Hero-section====****/
 #hero-section {
@@ -85,6 +88,11 @@ ul.arrow li::before {
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   background: #2c3e50; }
+
+.nav > li > a:hover {
+  background: #2c3e50;
+  padding: 10px 15px;
+  transition: scale(1.2) !important; }
 
 /**************HOME*******************/
 .no-margin {
@@ -150,8 +158,11 @@ h6 {
 .second-part {
   margin-bottom: 50px; }
 
+#services [class*='col-'] {
+  margin-top: 20px; }
+
 #contact-page {
-  padding: 50px 0px; }
+  padding: 50px 20px; }
 
 /***====CONTENT=====***/
 .content {
@@ -195,6 +206,9 @@ h6 {
 
 .team p {
   font-weight: normal; }
+
+.team [class*='col-'] {
+  margin-top: 15px; }
 
 /***SOCIAL****/
 .social {
@@ -241,7 +255,7 @@ h6 {
 
   .port-image {
     overflow: hidden;
-    height: 180px; } }
+    height: 130px; } }
 /*=====BLOG=====*/
 .row-2 {
   margin-top: 20px; }
@@ -316,8 +330,10 @@ h6 {
   .categories .col-sm-6:last-child, #comment-form .col-sm-6:nth-child(2) {
     margin-top: 10px; } }
 /***FOOTER***/
-footer .col-md-6:first-child {
-  color: #9d9d9d;
-  padding: 15px 0; }
+#footer {
+  color: #9d9d9d; }
+
+#footer .col-md-6 {
+  padding: 15px 10px; }
 
 /*# sourceMappingURL=main.css.map */
