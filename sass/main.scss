@@ -64,6 +64,7 @@ ul.arrow li::before {
   font-family: FontAwesome;
   font-size: 11px;
   content: "\f105";
+  margin-right: 5px;
 }
 /*HEADER*/
 .navbar {
@@ -112,66 +113,10 @@ ul.arrow li::before {
 }
 .list-banner li+li:before{padding:0 5px;content:"/\00a0"}
 
-.progress{
-    background-color: #fff;
-    height: 30px;
-}
-.progress-bar{
-    line-height: 30px;
-}
 
-/***TEAM***/
-
-.team-image img{
-    border-radius: 100%;
-}
-.team .cargo{
-    color:rgba(140,140,133,0.82);
-    font-size: 13px;
-    margin-top: 5px;
-    display: block;
-}
-.team p{
-    font-weight: normal;
-}
-/***SOCIAL****/
-.social{
-    color: #fff;
-    height: 36px;
-    width: 36px;
-    line-height: 36px;
-    display: inline-block;
-    border-radius: 100%;
-    text-align: center;
-    padding: 0;
-}
-.social.facebook{
-    background:#4f7dd4;
-}
-.social.google-plus{
-    background:#dc422b;
-}
-.social.twitter{
-    background:#5bceff;
-}
-.social.linkedin{
-    background:#21a6d8;
-}
-
-/**PORTFOLIO***/
-.thumbnail{
-    border-radius: 0px;
-    padding: 10px 10px 0;
-}
-.port-image{
-    overflow: hidden;
-    height: 230px;
-}
-.caption p{
-    font-weight: 600;
-    font-size: 15px;
-    margin: 0;
-}
+@import 'about-us';
+@import 'portfolio';
+@import 'blog';
 
 /***FOOTER***/
 footer .col-md-6:first-child{
