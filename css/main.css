@@ -317,6 +317,16 @@ h6 {
 .comment-user {
   margin-top: 0; }
 
+.pagination-nav {
+  margin-left: 16px; }
+
+.pagination-nav li > a {
+  border: none; }
+
+.pagination-nav li > a:hover {
+  background: rgba(33, 49, 65, 0.84);
+  color: #fff; }
+
 /**MEDIA QUERIES PARA BLOG**/
 @media (max-width: 768px) {
   .col-sm-6.image-ads {
