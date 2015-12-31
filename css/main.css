@@ -85,6 +85,7 @@ ul.arrow li::before {
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   background: #2c3e50; }
 
+/**************HOME*******************/
 .no-margin {
   background: url("../images/slider/bg1.jpg") no-repeat;
   background-size: cover;
@@ -124,11 +125,11 @@ ul.arrow li::before {
 .media-body {
   color: white; }
 
-/*====WORKS====*/
+/*WORKS*/
 #recent-works {
   padding: 60px 0px; }
 
-/*====TESTIMONIAL====*/
+/*TESTIMONIAL*/
 .testimonial {
   background: #E74C3C;
   color: white;
@@ -136,6 +137,14 @@ ul.arrow li::before {
 
 h6 {
   color: #DCDCDC; }
+
+/**************SERVICES*******************/
+/**********WHAT WE DO***********/
+.wedo {
+  margin: 50px 0px; }
+
+.text-wedo {
+  color: #34495E; }
 
 /***====CONTENT=====***/
 .content {
