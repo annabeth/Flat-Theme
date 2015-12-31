@@ -38,6 +38,9 @@ a {
   -o-transition: 300ms;
   transition: 300ms;
 }
+a:hover{
+    text-decoration: none;
+}
 /*GENERAL*/
 /****====Hero-section====****/
 #hero-section{
@@ -118,8 +121,12 @@ ul.arrow li::before {
 @import 'blog';
 
 /***FOOTER***/
-footer .col-md-6:first-child{
+#footer{
     color: #9d9d9d;
-    padding: 15px 0;
+
+}
+#footer .col-md-6:first-child{
+    color: #9d9d9d;
+    padding: 15px 10px;
 }
 

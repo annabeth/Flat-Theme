@@ -22,6 +22,9 @@
 .team p{
     font-weight: normal;
 }
+.team [class*='col-']{
+    margin-top: 15px;
+}
 /***SOCIAL****/
 .social{
     color: #fff;
