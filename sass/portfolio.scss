@@ -1,0 +1,25 @@
+/**====PORTFOLIO=====**/
+.thumbnail{
+    border-radius: 0px;
+    padding: 10px 10px 0;
+}
+.port-image{
+    overflow: hidden;
+    height: 230px;
+}
+.caption p{
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0;
+}
+
+@media (max-width:991px){
+    .col-md-4.portfolio-content{
+        width: 33.33333333%;
+        float: left;
+    }
+    .port-image{
+        overflow: hidden;
+        height: 180px;
+    }
+}
